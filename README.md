@@ -7,7 +7,7 @@
 </a>
 
 <a href="https://github.com/anuraghazra/github-readme-stats#top-languages-card">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=torish14&hide=html,css&theme=dracula&layout=compact" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=torish14&hide=html,css&theme=dracula&layout=compact&custom_title=torish14's Wakatime Stats" />
 </a>
 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
