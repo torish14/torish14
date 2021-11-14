@@ -2,9 +2,11 @@
 <img src="https://github-readme-stats.vercel.app/api?username=torish14&count_private=true&include_all_commits=true&hide=stars&show_icons=true&theme=dracula" />
 </a>
 
-<a href="https://github.com/anuraghazra/github-readme-stats#wakatime-week-stats">
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=torish14" />
-</a>
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=torish14)](https://github.com/anuraghazra/github-readme-stats)
+
+<!-- <a href="https://github.com/anuraghazra/github-readme-stats#wakatime-week-stats"> -->
+<!-- <img src="https://github-readme-stats.vercel.app/api/wakatime?username=torish14" /> -->
+<!-- </a> -->
 
 <a href="https://github.com/anuraghazra/github-readme-stats#top-languages-card">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=torish14&hide=html,css&theme=dracula&layout=compact" />
