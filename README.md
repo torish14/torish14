@@ -3,7 +3,7 @@
 </a>
 
 <a href="https://github.com/anuraghazra/github-readme-stats#wakatime-week-stats">
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=torish14&theme=dracula&layout=compact&custom_title=torish14's Wakatime Stats" />
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=torish14&theme=dracula&layout=compact" />
 </a>
 
 <a href="https://github.com/anuraghazra/github-readme-stats#top-languages-card">
