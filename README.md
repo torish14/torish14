@@ -19,6 +19,16 @@
 
 <!--START_SECTION:waka-->
 name: Wakatime Stats
+on:
+  schedule:
+    # Runs at 12am IST
+    - cron: '30 18 * * *'
+  workflow_dispatch:
+  jobs:
+  update-readme:
+    name: Update Readme with Metrics
+    runs-on: macos-latest
+    steps:
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ ec7616be-3e1d-41af-af91-b8d86a33209b }}
