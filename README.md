@@ -1,6 +1,6 @@
 <p>
 <a href="https://github.com/anuraghazra/github-readme-stats#github-stats-cards">
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=torish14&count_private=true&include_all_commits=true&hide=stars&show_icons=true&theme=dracula" />
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=torish14&count_private=true&include_all_commits=true&show_icons=true&theme=dracula" />
 </a>
 
 <!-- <a href="https://github.com/anuraghazra/github-readme-stats#wakatime-week-stats"> -->
