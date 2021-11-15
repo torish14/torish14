@@ -8,7 +8,7 @@
 <!-- </a> -->
 
 <a href="https://github.com/anuraghazra/github-readme-stats#top-languages-card">
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=torish14&hide=html,css&theme=dracula" />
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=torish14&hide=html,css,ejs,scss&theme=dracula" />
 </a>
 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
