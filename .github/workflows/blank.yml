@@ -1,0 +1,40 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Profile Readme Development Stats
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  update-readme:
+    name: Update Readme with Metrics
+  # This workflow contains a single job called "build"
+    # The type of runner that the job will run on
+    runs-on: macos-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: anmol098/waka-readme-stats@V3
+        with:
+          WAKATIME_API_KEY: ${{ secrets.ec7616be-3e1d-41af-af91-b8d86a33209b }}
+          GH_TOKEN: ${{ secrets.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 }}
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
