@@ -19,7 +19,6 @@
 
 <!--START_SECTION:waka-->
 name: Wakatime Stats
-
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ ec7616be-3e1d-41af-af91-b8d86a33209b }}
