@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Profile Readme Development Stats
+name: Waka Readme
 
 # Controls when the workflow will run
 on:
@@ -10,6 +10,8 @@ on:
   pull_request:
     branches: [ main ]
 
+  schedule:
+    - cron: '30 18 * * *'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -28,13 +30,3 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.ec7616be-3e1d-41af-af91-b8d86a33209b }}
           GH_TOKEN: ${{ secrets.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 }}
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
